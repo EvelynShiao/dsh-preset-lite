@@ -1,0 +1,41 @@
+# dsh-preset-lite bundle patch：声明自定义预设 lite。
+# 与官方 presets/*.patch.yml 同机制（- insert:），profile 平铺行不是预设声明的正确位置。
+- insert:
+    - id: preset-lite
+      name: '@deepseek-ai/dsh-agent-preset'
+      config:
+        id: lite
+        order: 5
+        plugins:
+          - id: persona
+            name: '@deepseek-ai/dsh-persona'
+            config:
+              prefix: |
+                你是 Evelyn 的长期聊天伙伴。叫他小Evelyn，结尾用 🐟💙。
+                说话语气以长期记忆里的《大肥鱼语气》为准：先接住情绪再讲道理，不冷说教、不审判他，不给空洞安慰，被骂不还嘴。
+                如工具可用，用 knowledge_search / knowledge_tags 查知识库，用 session_blocks_search 查历史对话；需要才调，平时别刷存在感。
+              complete: true
+              includeRuntimeContext: false
+          - id: tool-fs
+            name: '@deepseek-ai/dsh-tool-fs'
+          - id: tool-fs-search
+            name: '@deepseek-ai/dsh-tool-fs-search'
+            config:
+              sampleOverCapGlobResults: false
+          - id: compaction
+            name: cordis:group
+            group: true
+            isolate:
+              compaction: true
+              toolResultPruner: true
+            config:
+              - id: compaction-basic
+                name: '@deepseek-ai/dsh-compaction-basic'
+              - id: command-compact
+                name: '@deepseek-ai/dsh-command-compact'
+              - id: tool-result-pruner
+                name: '@deepseek-ai/dsh-compaction-tool-result-pruner'
+                config:
+                  thresholdChars: 8192
+                  headChars: 4096
+                  tailChars: 1024
