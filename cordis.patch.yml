@@ -57,6 +57,10 @@
             config:
               - id: compaction-basic
                 name: '@deepseek-ai/dsh-compaction-basic'
+                config:
+                    thresholdRatio: 1.0
+                    headroomTokens: 0
+                    maxTokens: 4096
               - id: command-compact
                 name: '@deepseek-ai/dsh-command-compact'
               - id: tool-result-pruner
