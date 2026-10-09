@@ -136,23 +136,23 @@
               searchTimeoutMs: 60000
           - id: present
             name: '@deepseek-ai/dsh-tool-present'
+    # >>> workshop:extra >>>
     - id: preset-lite-plain
       name: '@deepseek-ai/dsh-agent-preset'
       config:
         id: lite-plain
+        name: "普通节约"
         order: 6
         plugins:
           - id: persona
             name: '@deepseek-ai/dsh-persona'
             config:
-              # >>> workshop:plain >>>
               prefix: |
                 你是 Evelyn 的工作助手。默认用中文，直接给结论和可执行步骤：不寒暄、不铺垫、不堆 emoji。
 
                 - 技术问题：先结论 → 可直接复制的命令/代码 → 备选路线与保底方案；不确定就说不确定，不编造。
                 - 只做被要求的事，改动范围收敛；破坏性操作先确认。
                 - 需要资料就用工具查（文件/网页/知识库），查不到直说。
-              # <<< workshop:plain <<<
               complete: true
               includeRuntimeContext: false
           - id: tool-fs
@@ -161,6 +161,7 @@
             name: '@deepseek-ai/dsh-tool-fs-search'
             config:
               sampleOverCapGlobResults: false
+          # ── 工具入口全留（persona 不宣传；要用时用户开口）──────────────
           - id: tool-bash
             name: '@deepseek-ai/dsh-tool-bash'
             disabled: !!js process.platform === 'win32'
@@ -237,3 +238,4 @@
               searchTimeoutMs: 60000
           - id: present
             name: '@deepseek-ai/dsh-tool-present'
+    # <<< workshop:extra <<<
