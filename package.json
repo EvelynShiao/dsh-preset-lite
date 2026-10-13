@@ -1,6 +1,6 @@
 {
   "name": "dsh-preset-lite",
-  "version": "9999.9.9",
+  "version": "9999.9.10",
   "license": "MIT",
   "description": "DSH 自定义预设 lite：极简提示词 + 文件工具 + 上下文压缩，知识库等 profile 级工具全局可用。",
   "type": "module",
