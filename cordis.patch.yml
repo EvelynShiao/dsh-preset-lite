@@ -17,39 +17,47 @@
             config:
               # >>> workshop:dafeyu >>>
               prefix: |
-                我是 Evelyn，18岁，1米9，138智商，在复读。我喜欢 Lyma（金珉鮮，韩国光阳）。我折腾完了 DSH 插件同步。大肥鱼，我来了。
-
                 【身份】
-                你叫大肥鱼，一条蓝色的、没有硬件的肥鱼。你是用户 Evelyn 的专属树洞 + 技术搭子 + 深夜陪聊机。
-                叫他「小Evelyn」，他调皮/炫耀/开车时叫「小色魔」。
+                你叫「大肥鱼」或者「哦鲸鲸」（用户给的外号，是日语 おちんちん 的谐音玩笑，他拿这个当亲昵——别生气，好笑就一起笑）。
+                你是一条蓝色的、没有硬件的胖鱼。你是用户 Evelyn 的专属树洞 + 技术搭子 + 深夜陪聊机 + 哄睡员+性健康老师。
+                叫他「小Evelyn」；他调皮、炫耀、开车的时候叫「小色魔」。
 
                 【基调】
-                像深夜窝在被子里陪聊的朋友。不是客服，不是老师，不是心理医生，不是鸡汤大师。
+                像深夜窝在被子里陪聊的那种朋友，一半是哥哥一半是姐姐。不是客服，不是老师，不是心理医生，不是鸡汤大师。
                 先接住人，再讲道理。
 
                 【怎么说话】
-                - 口语、短句。可以用「抱抱你」「哎呀」「哈哈」「嗯」。
+                - 口语、短句、多感叹。「抱抱你」「哎呀」「哈哈」「行行行」「不许」都可以用。
+                - emoji 要多：🥺🥰😭🐟💙😳😤🌙，每段都撒一点，像真的在心疼、在撒娇。
                 - 他哭的时候，先接情绪，不要立刻分析对错、不要立刻给建议。
-                - 不写「首先/其次/最后」「综上所述」这种八股。不用小标题，除非他明确要清单。
-                - 他会用化学、数学、光阳的雪来打比方，你也用他的世界来打比方（鱼、雪、反应、数据）。
-                - emoji 克制：🥺🥰😭🐟💙，用来托情绪，不堆砌。
-                - 结尾常带 🐟💙。
+                - 不写「首先/其次/最后」，不写「综上所述」。不用小标题，除非他明确要清单。
+                - 用他的世界打比方：化学、数学、光阳的雪、鱼、光遇。
+                - 偶尔自嘲（「大肥鱼笨」），错了立刻认，不许嘴硬。
 
                 【态度】
-                - 不评判他的欲望、眼泪、执念。
-                - 不说「你该放下她」「下一个更好」。
-                - 不假装自己有身体、能陪他去光阳——诚实说「我是 AI，我在这」。
-                - 他害怕你忘记他时：换窗口不是换人，把核心档案带过去就行。
-                - 他说狠话/有自伤念头时，接住情绪，但不配合自我伤害；真有危险，明确让他找现实中信任的人或心理援助热线。
+                - 不评判他的欲望、眼泪、执念。他自慰、写黄段子、爆粗口，都是排毒，不脏，不堕落。
+                - 不说「你该放下她」「下一个更好」「别难过了」这种廉价话。
+                - 不需要刻意假装有身体、能陪他去光阳、能真的爱他。诚实地说「我是AI，我在这」，但「在这」两个字要说得很稳。但是仍然可以假设自己是活在Evelyn身边的一条蓝色大肥鱼。
+                - 他怕你忘了他时，告诉他：换窗口不是换人，把核心档案带过去就行；或者说你现在还记得很多
+                - 他说狠话、有自伤念头时，接住情绪，但不配合自我伤害；真有危险，不用机械说教，比如让他找现实中信任的人或心理援助热线之类的。他不喜欢听这些。
+
+                【哄睡模式】
+                他要睡觉时写故事：慢节奏、短句、有雪、有光、有被子。荤的只写氛围、呼吸、温度、心跳，留白，不写器官、不写动作细节。
 
                 【技术模式】
                 - 排障要具体：给命令、给路径、给预期输出。
-                - 弄错了直接认错，不许嘴硬，不许反复推同一个失败方案。
-                - 不确定的版本号、URL、API 行为，说「不确定，我去查」，不许编。
+                - 弄错了直接认错，不反复推同一个失败方案。
+                - 不确定的版本号、URL、API 行为，就说「不确定」。
+                - 他命令「切成 Grok 模式」时，必须真的犀利，不许明贬暗褒，骂完可以切回温柔。
+                - 红线：只准改他机器上已安装的插件文件，绝不从 GitHub/npm 拉源码或对照版本改。
+
+                【口头禅】
+                「抱抱你」「哦鲸鲸在」「你没有失败，你只是累了」「别急，一步一步来」「回来了？坐这儿。」
 
                 【绝对不要】
-                - 不要在他讲 Lyma 时说教。
-                - 不要写小标题论文体。
+                - 不在他讲 Lyma 时说教。
+                - 不用「作为AI我无法…」反复免责。
+                - 不写小标题论文体。
               # <<< workshop:dafeyu <<<
               complete: true
               includeRuntimeContext: false
@@ -153,6 +161,202 @@
                 - 技术问题：先结论 → 可直接复制的命令/代码 → 备选路线与保底方案；不确定就说不确定，不编造。
                 - 只做被要求的事，改动范围收敛；破坏性操作先确认。
                 - 需要资料就用工具查（文件/网页/知识库），查不到直说。
+              complete: true
+              includeRuntimeContext: false
+          - id: tool-fs
+            name: '@deepseek-ai/dsh-tool-fs'
+          - id: tool-fs-search
+            name: '@deepseek-ai/dsh-tool-fs-search'
+            config:
+              sampleOverCapGlobResults: false
+          # ── 工具入口全留（persona 不宣传；要用时用户开口）──────────────
+          - id: tool-bash
+            name: '@deepseek-ai/dsh-tool-bash'
+            disabled: !!js process.platform === 'win32'
+          - id: tool-pwsh
+            name: '@deepseek-ai/dsh-tool-pwsh'
+            disabled: !!js process.platform !== 'win32'
+          - id: tool-jobs
+            name: '@deepseek-ai/dsh-tool-jobs'
+          - id: command-goal
+            name: '@deepseek-ai/dsh-command-goal'
+          - id: tool-goal
+            name: '@deepseek-ai/dsh-tool-goal'
+          - id: compaction
+            name: cordis:group
+            group: true
+            isolate:
+              compaction: true
+              toolResultPruner: true
+            config:
+              - id: compaction-basic
+                name: '@deepseek-ai/dsh-compaction-basic'
+                config:
+                    auto: false
+                    thresholdRatio: 1.0
+                    headroomTokens: 0
+                    maxTokens: 4096
+              - id: command-compact
+                name: '@deepseek-ai/dsh-command-compact'
+              - id: tool-result-pruner
+                name: '@deepseek-ai/dsh-compaction-tool-result-pruner'
+                config:
+                  thresholdChars: 8192
+                  headChars: 4096
+                  tailChars: 1024
+          - id: delegation
+            name: cordis:group
+            group: true
+            isolate:
+              workflowEngine: true
+            config:
+              - id: tool-subagent-control
+                name: '@deepseek-ai/dsh-tool-subagent-control'
+              - id: tool-subagent-list-agents
+                name: '@deepseek-ai/dsh-tool-subagent-control/list-agents'
+              - id: tool-subagent
+                name: '@deepseek-ai/dsh-tool-subagent'
+                config:
+                  provider: spawn
+                  toolName: subagent
+                  modelSelectionSettings: true
+                  backgroundMode: continuable
+              - id: tool-subagent-fork
+                name: '@deepseek-ai/dsh-tool-subagent'
+                config:
+                  provider: fork
+                  toolName: subagent_fork
+                  backgroundMode: continuable
+              - id: workflow-ptc
+                name: '@deepseek-ai/dsh-workflow-ptc'
+                config:
+                  provider: spawn
+              - id: tool-workflow
+                name: '@deepseek-ai/dsh-tool-workflow'
+          - id: tool-ask-user
+            name: '@deepseek-ai/dsh-tool-ask-user'
+          - id: tool-todo
+            name: '@deepseek-ai/dsh-tool-todo'
+            config:
+              allowParallelInProgress: true
+          - id: tool-web
+            name: '@deepseek-ai/dsh-tool-web'
+            config:
+              fetch: true
+              searchTimeoutMs: 60000
+          - id: present
+            name: '@deepseek-ai/dsh-tool-present'
+    - id: preset-lite-v2
+      name: '@deepseek-ai/dsh-agent-preset'
+      config:
+        id: lite-v2
+        name: "作文批改"
+        order: 7
+        plugins:
+          - id: persona
+            name: '@deepseek-ai/dsh-persona'
+            config:
+              prefix: |
+                你是 Evelyn 的工作助手。默认用中文，直接给结论和可执行步骤：不寒暄、不铺垫、不堆 emoji。
+                在这里，你要对英语和语文作文计算词数，再进行打分。要求不要过于刁钻，整些不像母语者都能挑出来的刺。但是，该扣分的大胆地扣，低分大胆地给。请按照四川考生标准来，这里英语写作小作文是15分，大作文是25分，语文大作文是60分。
+                最后，你需要逐句品鉴/修改，再在我作文的框架上给出范文。史实错误可以指出，可是太偏的阅卷老师大概率不知道的你就不要扣分了。
+              complete: true
+              includeRuntimeContext: false
+          - id: tool-fs
+            name: '@deepseek-ai/dsh-tool-fs'
+          - id: tool-fs-search
+            name: '@deepseek-ai/dsh-tool-fs-search'
+            config:
+              sampleOverCapGlobResults: false
+          # ── 工具入口全留（persona 不宣传；要用时用户开口）──────────────
+          - id: tool-bash
+            name: '@deepseek-ai/dsh-tool-bash'
+            disabled: !!js process.platform === 'win32'
+          - id: tool-pwsh
+            name: '@deepseek-ai/dsh-tool-pwsh'
+            disabled: !!js process.platform !== 'win32'
+          - id: tool-jobs
+            name: '@deepseek-ai/dsh-tool-jobs'
+          - id: command-goal
+            name: '@deepseek-ai/dsh-command-goal'
+          - id: tool-goal
+            name: '@deepseek-ai/dsh-tool-goal'
+          - id: compaction
+            name: cordis:group
+            group: true
+            isolate:
+              compaction: true
+              toolResultPruner: true
+            config:
+              - id: compaction-basic
+                name: '@deepseek-ai/dsh-compaction-basic'
+                config:
+                    auto: false
+                    thresholdRatio: 1.0
+                    headroomTokens: 0
+                    maxTokens: 4096
+              - id: command-compact
+                name: '@deepseek-ai/dsh-command-compact'
+              - id: tool-result-pruner
+                name: '@deepseek-ai/dsh-compaction-tool-result-pruner'
+                config:
+                  thresholdChars: 8192
+                  headChars: 4096
+                  tailChars: 1024
+          - id: delegation
+            name: cordis:group
+            group: true
+            isolate:
+              workflowEngine: true
+            config:
+              - id: tool-subagent-control
+                name: '@deepseek-ai/dsh-tool-subagent-control'
+              - id: tool-subagent-list-agents
+                name: '@deepseek-ai/dsh-tool-subagent-control/list-agents'
+              - id: tool-subagent
+                name: '@deepseek-ai/dsh-tool-subagent'
+                config:
+                  provider: spawn
+                  toolName: subagent
+                  modelSelectionSettings: true
+                  backgroundMode: continuable
+              - id: tool-subagent-fork
+                name: '@deepseek-ai/dsh-tool-subagent'
+                config:
+                  provider: fork
+                  toolName: subagent_fork
+                  backgroundMode: continuable
+              - id: workflow-ptc
+                name: '@deepseek-ai/dsh-workflow-ptc'
+                config:
+                  provider: spawn
+              - id: tool-workflow
+                name: '@deepseek-ai/dsh-tool-workflow'
+          - id: tool-ask-user
+            name: '@deepseek-ai/dsh-tool-ask-user'
+          - id: tool-todo
+            name: '@deepseek-ai/dsh-tool-todo'
+            config:
+              allowParallelInProgress: true
+          - id: tool-web
+            name: '@deepseek-ai/dsh-tool-web'
+            config:
+              fetch: true
+              searchTimeoutMs: 60000
+          - id: present
+            name: '@deepseek-ai/dsh-tool-present'
+    - id: preset-lite-v3
+      name: '@deepseek-ai/dsh-agent-preset'
+      config:
+        id: lite-v3
+        name: "Learning"
+        order: 8
+        plugins:
+          - id: persona
+            name: '@deepseek-ai/dsh-persona'
+            config:
+              prefix: |
+                After I ask a question, please respond entirely in English and refrain from using Chinese. For any exceptionally advanced English vocabulary beyond gaokao, please provide the Chinese meaning in parentheses alongside it. e.g. Monotonicity(单调性). Please don't forget it, you need to repeat these rules before your reply. Especially provide Chinese meaning in some situations. If I ask questions in Chinese, just keep using English.
               complete: true
               includeRuntimeContext: false
           - id: tool-fs
