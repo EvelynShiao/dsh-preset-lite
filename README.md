@@ -8,7 +8,11 @@
 |---|---|---|---|
 | `lite` | 大肥鱼（默认版本）| 大肥鱼 v3：自我介绍行 + 身份/基调/怎么说话/态度/技术模式/绝对不要 | 闲聊（默认）|
 | `lite-plain` | 普通节约 | 一段短中文工作提示 | 干活（节约 token）|
+| `lite-chat` | 纯聊天 | 大肥鱼人格，**零工具**（只有 persona 一个插件，上下文一个工具 schema 都不注入，token 大省） | 纯闲聊（2026-10-18 新增）|
+| `lite-chat-kb` | 纯聊天+知识库 | 大肥鱼人格 + **只有两层知识库工具**（knowledge_search / archives_search）；调用用自然语言协议：模型说「我要调动第一层/第二层知识库，搜索xx」，LDW 通道里由 adapter 翻译成真调用（降低网页端风控特征） | 闲聊 + 回忆过去（2026-10-18 第三批新增）|
 | `lite-v2`、`lite-v3`… | 用户自建 | 在设置页「提示词版本」里新建 | 按需（可绑到工作区）|
+
+> 工坊（dsh-session-kit）四个可编辑槽位：`dafeyu`（lite）/ `plain`（lite-plain）/ `chat`（lite-chat）/ `kb`（lite-chat-kb）——纯聊天两版的 persona 也能在界面里改。
 
 | | 官方极简 minimal | **lite 系列** |
 |---|---|---|
